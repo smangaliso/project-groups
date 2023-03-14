@@ -1,0 +1,76 @@
+.dropdown-menu.show {
+  background-color: white;
+  width: 300px;
+}
+.dropdown-toggle.show {
+  background-color: white;
+  color: black !important;
+}
+.dropdown-menu {
+  margin-top: -1px !important;
+  border-radius: 0 0 7px 7px;
+  border-top: 0;
+  margin-left: -1px !important;
+}
+
+.search-input {
+  background-image: url("../img/search-icon.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  text-indent: 30px; /* Adjust this value to position the text */
+  padding-left: 20px; /* Add padding to the left to make room for the icon */
+  background-size: 16px 16px;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.project-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.project-name {
+  font-size: 1.2rem;
+}
+
+.grouplist {
+  margin-left: 70px;
+}
+
+.grouplist li {
+  list-style-type: none;
+}
+.project-header {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.vl {
+  border-left: 2px solid #ccc;
+  height: 1.5em;
+  margin: 0 0.5em;
+}
+.highlighted {
+  background-color: yellow;
+}
+
+.searching .add-group {
+  display: none;
+}
+
+.add-group {
+  background-color: white;
+  border: none;
+  color: #ccc;
+}
+
+.active {
+  background-color: yellow;
+}
